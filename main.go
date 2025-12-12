@@ -42,3 +42,5 @@ func main() {
 		fmt.Print("Slice is empty")
 	}
 }
+
+//fff
