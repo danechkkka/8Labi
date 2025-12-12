@@ -38,4 +38,7 @@ func main() {
 	wg.Wait()
 	Max(n_slice)
 	fmt.Print(n_slice[0])
+	if len(n_slice) == 0 {
+		fmt.Print("Slice is empty")
+	}
 }
